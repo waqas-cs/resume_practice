@@ -1,0 +1,70 @@
+.container{
+    max-width: 1749px;
+    margin: 0 auto;
+}
+.mainContactus{
+    background-color: #040B33;
+    padding-bottom: 138px;
+}
+.mainContactusWrap{
+    color: white;
+}
+.mainContactusWrap h3{
+    font-size: 60px;
+    width: 40%;
+    margin: 0px auto 33px;
+    font-weight: 700;
+}
+.mainContactusWrap form{
+    display: flex;
+    flex-direction: column;
+}
+.mainContactusWrap p{
+    font-size: 20px;
+    width: 50%;
+    margin: 0px auto 89px;
+    font-weight: 500;
+    line-height: 2.5;
+}
+.mainContactusWrap input{
+    width: 594px;
+    height: 89px;
+    margin: 0px 50px 50px 0px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #707070;
+    padding: 27px 25px;
+}
+
+.contactusForm{
+    display: flex;
+    justify-content: center;
+}
+.mainContactusWrap textarea{
+    width: 1238px;
+    height: 205px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #707070;
+    margin: 0px 50px 89px 0px;
+    padding: 27px 25px;
+}
+.formTextarea{
+    margin: auto;
+    text-align: center;
+}
+.mainContactusWrap button{
+    padding: 30px 85px;
+    margin-right: 26px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.mainContactusWrap button:hover{
+    background-color: red;
+    border-color: red;
+    transition: all 0.7s;
+}

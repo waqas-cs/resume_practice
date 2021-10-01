@@ -1,0 +1,50 @@
+.container{
+    max-width: 1749px;
+    margin: 0 auto;
+}
+.mainCap{
+    background-color: #0E0C38;
+    color: white;
+    padding-bottom: 264px;
+}
+h3{
+    font-size: 60px;
+    display: block;
+    margin: 0px;
+    padding-top: 95px;
+}
+.mainCapHeading p{
+    font-size: 30px;
+    font-weight: 500;
+}
+.mainCapHeading img{
+    padding: 41px;
+}
+.capList{
+    margin-top: 229px;
+}
+.capSkillsWrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 174px;
+}
+.skill{
+    width: 20%;
+
+}
+.skill img{
+    width: 106px;
+    height: 106px;
+}
+h5{
+    font-size: 35px;
+    margin-top: 19px;
+}
+.skill p{
+    font-size: 22px;
+}
+.mainCapHeading{
+    margin-bottom: 229px;
+}
+

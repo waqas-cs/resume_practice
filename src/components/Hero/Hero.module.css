@@ -1,0 +1,85 @@
+.heroMain{
+    background-color: #0E0C38;
+    position: relative;
+}
+.container{
+    max-width: 1749px;
+    margin: 0 auto;
+}
+.heroWrap{
+    color: white;
+    display: flex;
+    padding-bottom: 15px;
+}
+.heroHeading, .heroImage{
+    width: 50%;
+    text-align: left;
+    display: flex;;
+}
+.heroHeading{
+    align-items: center;
+}
+.heroImage img{
+    max-width: 100%;
+}
+h4{
+    font-weight: 400;
+}
+h1{
+    line-height: 1;
+    margin: -5px;
+}
+p{
+    font-size: 26px;
+}
+span{
+    color: red;
+}
+.findmePara{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.socialMedia {
+    margin-top: 22px;
+}
+.socialMedia img{
+    margin-right: 33px;
+}
+.heroButtons{
+    display: flex;
+    margin-top: 69px;
+}
+.heroheadingWrap button{
+    padding: 30px 85px;
+    margin-right: 26px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.heroheadingWrap button:hover{
+    background-color: red;
+    border-color: red;
+    transition: all 0.7s;
+}
+.heroSideBar ul{
+    list-style-type: none;
+    font-size: 20px;
+    width: 50%;
+    margin: 20px auto;
+    color: #8D8D8D;
+}
+.heroSideBar li{
+    padding: 15px 0px 6px 0px;
+    border-bottom: 2px solid #707070;
+}
+.heroSideBar li:hover{
+    color: white;
+}
+.heroSideBar{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

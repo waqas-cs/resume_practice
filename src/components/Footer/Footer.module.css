@@ -1,0 +1,41 @@
+.container{
+    max-width: 1749px;
+    margin: 0 auto;
+}
+footer{
+    background-color: #040221;
+    color: white;
+    padding-bottom: 60px;
+}
+.footerWrap{
+    position: relative;
+}
+.footerSpan{
+    width: 3px;
+    height: 83px;
+    background-color: red;
+    margin-left: 70px;
+    position: absolute;
+    top: 0;
+    left: 46%;
+}
+.footerWrap img{
+    margin: 105px 0px 46px;
+}
+.socialMedia {
+    margin: 69px 0px 90px;
+}
+.socialMedia img{
+    margin-right: 33px;
+}
+footer hr{
+    border: none;
+    height: 1px;
+    background-color: #707070;
+    margin-bottom: 53px;
+}
+.footerPara{
+    line-height: 2.5;
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,74 @@
+.container{
+    max-width: 1749px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #0E0C38;
+}
+.navbarWrap{
+    display: flex;
+    justify-content: space-between; 
+}
+.logo{
+    width: 265px;
+    height: 137px;
+}
+.heroDottedImage{
+    position: absolute;
+    top: 0;
+    left: 27%;
+    z-index: 999;
+}
+.navLinks{
+    display: flex;
+    font-size: 22px;
+    font-weight: 500;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    align-items: center;
+}
+#getStated{
+    border: 2px solid white;
+    width: 202px;
+    height: 72px;
+    border-radius: 50px;
+    font-family: 'Raleway';
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-left: 15px;
+}
+#getStated:hover{
+    background-color: red;
+    border-color: red;
+    transition: all 0.7s;
+}
+.navList{
+    width: 123px;
+    height: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about, #portfolio, #contact{
+    position: relative;
+    z-index: 2;
+}
+#about::after, #portfolio::after, #contact::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    transition: 1s;
+    padding-bottom: 20px;
+    right: 0;
+    bottom: 17px;
+    top: -200px;
+}
+#about:hover::after, #portfolio:hover::after, #contact:hover::after{
+    background: red;
+}

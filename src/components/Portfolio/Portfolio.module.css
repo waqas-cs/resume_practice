@@ -1,0 +1,146 @@
+.container{
+    max-width: 1749px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.portfolio{
+    background-color: #040221;
+    color: white;
+    padding-bottom: 188px;
+}
+.portfolioHeading{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.portfolioWrap h4{
+    font-size: 50px;
+}
+.lineSpan{
+    height: 2px;
+    width: 345px;
+    background-color: red;
+    position: absolute;
+    top: 36%;
+    left: 14%;
+}
+.portfolioHeading img{
+    border: 1px solid white;
+    padding: 43px;
+    border-radius: 50%;
+    margin-left: 33px;
+}
+.portfolioHeading img:hover{
+    background-color: red;
+    transition: all 0.7s;
+}
+.tabs{
+    text-align: left;
+}
+.tabContentImage{
+    margin-top: 131px;
+}
+.tabs button{
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    margin-right: 35px;
+}
+.tabs button:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.tabContent{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tabContentLogo{
+    display:flex; 
+    /* height: 510px; */
+}
+.tabContentWeb{
+    display:flex; 
+    /* height: 510px; */
+}
+.tabContentMob{
+    display:flex; 
+    /* height: 510px; */
+}
+.tabContentImage{
+    width: 33%;
+}
+/* .tabContentImage{
+    vertical-align: baseline;
+} */
+.tabContentImage:hover{
+    transform: scaleY(1.1);
+    transform-origin: bottom;
+    transition: all 0.7s;
+}
+.tabContentImage img{
+    width: 505px;
+    /* height: 510px; */
+}
+
+.tabContentImage{
+    position: relative;
+}
+.tabContentImage::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 505px;
+    height: 510px;
+    transition: all 0.5s;
+    opacity: 0;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 8%;
+}
+.tabContentImage:hover::after{
+    opacity: 0.5;
+}
+.tabContentImage:hover::after{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: all 0.7s;
+}
+.content{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 11%;
+    z-index: 999;
+    text-align: left;
+    top: 60%;
+    right: 0;
+    width: 505px;
+    min-height: 510px;
+    opacity: 0;
+    margin: 0 auto;
+    border-radius: 8%;
+}
+.content h4{
+    font-size: 44px;
+    font-weight: 600;
+}
+.content p{
+    font-size: 25px;
+    font-weight: 200;
+}
+.content:hover{
+    opacity: 1;
+    transition: all 0.7s;
+}
+
+
+/***************** Media Queries *******************/
+

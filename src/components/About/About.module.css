@@ -1,0 +1,56 @@
+.container{
+    max-width: 1747px;
+    margin: 0 auto;
+}
+.about{
+    background-color: #040221;
+    color:white;
+}
+.aboutWrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 197px 0px 64px;
+}
+h3{
+    font-size: 60px;
+    margin: 110px 0px 75px;
+    display: inline-block;
+}
+.aboutLine{
+    position: absolute;
+    right: 0;
+    top: 156px;
+}
+.aboutHeading, .aboutImage{
+    width: 50%;
+}
+.aboutHeading{
+    text-align: left;
+    position: relative;
+}
+.aboutHeading p{
+    line-height: 2;
+    width: 90%;
+}
+.aboutImage img{
+    max-width: 100%;
+}
+.aboutImage{
+    padding: 74px 65px;
+    background-color: #0E0C38;
+}
+.aboutHeading button{
+    margin-top: 85px;
+    padding: 30px 55px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.aboutHeading button:hover{
+    background-color: red;
+    border-color: red;
+    transition: all 0.7s;
+}
