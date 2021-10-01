@@ -68,3 +68,74 @@
     border-color: red;
     transition: all 0.7s;
 }
+
+
+/************ Media Queries **************/
+
+@media only screen and (max-width:1366px) {
+    .mainContactusWrap img{
+        height: 130px;
+    }
+    .mainContactusWrap h3{
+        font-size: 34px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mainContactusWrap p{
+        font-size: 14px;
+        margin: 0px auto 30px;
+    }
+    .mainContactusWrap input{
+        height: 50px;
+        font-size: 18px;
+    }
+    .mainContactusWrap textarea{
+        width: 95%;
+        height: 170px;
+        font-size: 18px;
+        margin: 0px;
+    }
+    .formTextarea{
+        margin: 0px 0px 20px;
+        padding: 0px;
+        text-align: left;
+    }
+    .mainContactusWrap button{
+        padding: 16px 50px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .mainContactusWrap img{
+        height: 130px;
+    }
+    .mainContactusWrap h3{
+        font-size: 24px;
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+    .mainContactusWrap p{
+        font-size: 12px;
+        margin: 0px auto 20px;
+    }
+    .mainContactusWrap input{
+        height: 35px;
+        font-size: 14px;
+    }
+    .mainContactusWrap textarea{
+        width: 95%;
+        height: 150px;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .formTextarea{
+        margin: 0px 0px 20px;
+        padding: 0px;
+        text-align: left;
+    }
+    .mainContactusWrap button{
+        padding: 12px 40px;
+        font-size: 14px;
+    }
+}

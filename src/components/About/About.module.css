@@ -54,3 +54,67 @@ h3{
     border-color: red;
     transition: all 0.7s;
 }
+
+
+/************ Media Queries **************/
+
+@media only screen and (max-width:1366px) {
+    .aboutHeading h3{
+        font-size: 36px;
+        padding-top: 35px;
+    }
+    .aboutLine{
+        width: 200px;
+        top: 16%;
+    }
+    .aboutImage img{
+        height: 350px;
+    }
+    .aboutHeading p{
+        font-size: 16px;
+    }
+    .aboutImage{
+        padding: 20px 20px;
+        width: 48%;
+        vertical-align: middle;
+    }
+    .aboutHeading button{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .aboutWrap{
+        padding: 50px 0px 34px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .aboutHeading h3{
+        font-size: 28px;
+        padding-top: 28px;
+    }
+    .aboutLine{
+        width: 160px;
+        top: 11%;
+        right: -4%;
+    }
+    .aboutImage img{
+        height: 280px;
+    }
+    .aboutHeading p{
+        font-size: 14px;
+    }
+    .aboutImage{
+        padding: 15px 15px;
+        width: 48%;
+        vertical-align: middle;
+    }
+    .aboutHeading button{
+        padding: 12px 24px;
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    .aboutWrap{
+        padding: 30px 0px 24px;
+    }
+}

@@ -123,7 +123,7 @@
     top: 60%;
     right: 0;
     width: 505px;
-    min-height: 510px;
+
     opacity: 0;
     margin: 0 auto;
     border-radius: 8%;
@@ -144,3 +144,85 @@
 
 /***************** Media Queries *******************/
 
+@media only screen and (max-width:1366px) {
+    .portfolioWrap h4{
+        font-size: 36px;
+    }
+    .lineSpan{
+        width: 200px;
+        top: 35%;
+        left: 17%;
+    }
+    .portfolioHeading img{
+        padding: 20px;
+        margin-left: 20px;
+    }
+    .tabs button{
+        font-size: 20px;
+    }
+    .tabContentImage img{
+        margin-top: 0px;
+        width: 300px;
+    }
+    .content{
+        top: 0%;
+        left: 0%;
+        width: 230px;
+    }
+    .tabContentImage::after{
+        width: 300px;
+        height: 302px;
+    }
+    .content h4{
+        font-size: 24px;
+        display: inline-block;
+    }
+    .content p{
+        font-size: 18px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width:991px) {
+
+    .portfolioWrap h4{
+        font-size: 28px;
+    }
+    .lineSpan{
+        width: 180px;
+        top: 35%;
+        left: 17%;
+    }
+    .portfolioHeading img{
+        padding:18px;
+        margin-left: 20px;
+    }
+    .tabs button{
+        font-size: 16px;
+    }
+    .tabContentImage img{
+        margin-top: 0px;
+        width: 230px;
+    }
+    .content{
+        top: 0%;
+        left: 0%;
+        width: 230px;
+    }
+    .tabContentImage::after{
+        width: 230px;
+        height: 232px;
+    }
+    .content h4{
+        font-size: 20px;
+        display: inline-block;
+    }
+    .content p{
+        font-size: 16px;
+        display: inline-block;
+    }
+    .portfolio{
+        padding-bottom: 100px;
+    }
+
+}

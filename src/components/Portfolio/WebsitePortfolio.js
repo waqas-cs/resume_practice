@@ -10,7 +10,7 @@ const WebsitePortfolio = () => {
                 <img src={apri}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>Apri</h4>
+                        <h4>Apri</h4><br/>
                         <p>Branding, Web Design</p>
                     </div>
                 </div>
@@ -19,7 +19,7 @@ const WebsitePortfolio = () => {
                 <img src={bane}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>Bane</h4>
+                        <h4>Bane</h4><br/>
                         <p>Branding, Web Design</p>
                     </div>
                 </div>

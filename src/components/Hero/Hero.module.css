@@ -83,3 +83,83 @@ span{
     right: 0;
     bottom: 0;
 }
+
+
+@media only screen and (max-width:1366px) {
+    .heroDottedImage img{
+        width: 240px;
+    }
+    .heroheadingWrap h4{
+        font-size: 28px;
+    }
+    .heroheadingWrap h1{
+        font-size: 75px;
+    }
+    .heroheadingWrap p{
+        font-size: 16px;
+    }
+    .socialMedia img:first-child{
+        width: 45px;
+        height: 30px;
+    }
+    .socialMedia img{
+        width: 30px;
+        height: 30px;
+    }
+    .heroheadingWrap button{
+        padding: 14px 30px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    .heroImage img{
+        max-width: 80%;
+    }
+    .heroSideBar img{
+        width: 40px;
+    }
+    .heroSideBar ul{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+    .heroDottedImage img{
+        width: 180px;
+    }
+    .heroheadingWrap h4{
+        font-size: 22px;
+        margin-top: 20px
+    }
+    .heroheadingWrap h1{
+        font-size: 50px;
+    }
+    .heroheadingWrap p{
+        font-size: 14px;
+    }
+    .socialMedia img:first-child{
+        width: 36px;
+        height: 24px;
+    }
+    .socialMedia img{
+        width: 24px;
+        height: 24px;
+    }
+    .heroheadingWrap button{
+        padding: 12px 24px;
+        margin-right: 18px;
+        font-size: 14px;
+    }
+    .heroImage img{
+        max-width: 80%;
+    }
+    .heroSideBar img{
+        width: 34px;
+    }
+    .heroSideBar ul{
+        font-size: 10px;
+    }
+    .heroButtons{
+        margin-top: 20px;
+    }
+}

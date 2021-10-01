@@ -39,9 +39,7 @@ const ClientFeedback = () => {
         setfeedbackClientName(clientName)
         setfeedbackPosition(clientPosition)
     }
-
-
-
+    
     return (
         <div className={styles.mainFeedback}>
             <div className="container">

@@ -10,7 +10,7 @@ const MobliePortfolio = () => {
                 <img src={nalie}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>Malie</h4>
+                        <h4>Malie</h4><br/>
                         <p>Branding, Mobile Design</p>
                     </div>
                 </div>
@@ -19,7 +19,7 @@ const MobliePortfolio = () => {
                 <img src={mob}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>Mob</h4>
+                        <h4>Mob</h4><br/>
                         <p>Branding, Mobile Design</p>
                     </div>
                 </div>

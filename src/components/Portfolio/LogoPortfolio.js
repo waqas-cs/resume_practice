@@ -11,7 +11,7 @@ const LogoPortfolio = () => {
                 <img src={abad}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>Abad</h4>
+                        <h4>Abad</h4><br/>
                         <p>Branding, Logo Design</p>
                     </div>
                 </div>
@@ -20,7 +20,7 @@ const LogoPortfolio = () => {
                 <img src={SedutPerspiciatis}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>sedut</h4>
+                        <h4>sedut</h4><br/>
                         <p>Branding, Logo Design</p>
                     </div>
                 </div>

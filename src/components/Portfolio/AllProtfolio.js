@@ -14,7 +14,7 @@ const AllProtfolio = () => {
                 <img src={abad}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>Abad</h4>
+                        <h4>Abad</h4><br/>
                         <p>Branding, Logo Design</p>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ const AllProtfolio = () => {
                 <img className={styles.sedutImage} src={SedutPerspiciatis}/>
                 <div className={styles.content}>
                 <div>
-                    <h4>Sed ut Perspiciatis</h4>
+                    <h4>Sed ut Perspiciatis</h4><br/>
                     <p>Branding, Logo Design</p>
                 </div>
                 </div>
@@ -32,7 +32,7 @@ const AllProtfolio = () => {
                 <img src={apri}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>Apri</h4>
+                        <h4>Apri</h4><br/>
                         <p>Branding, Web Design</p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const AllProtfolio = () => {
                 <img src={bane}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>Bane</h4>
+                        <h4>Bane</h4><br/>
                         <p>Branding, Web Design</p>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const AllProtfolio = () => {
                 <img src={nalie}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>Nalie</h4>
+                        <h4>Nalie</h4><br/>
                         <p>Branding, Mobile Design</p>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ const AllProtfolio = () => {
                 <img src={mob}/>
                 <div className={styles.content}>
                     <div>
-                        <h4>Mob</h4>
+                        <h4>Mob</h4><br/>
                         <p>Branding, Mobile Design</p>
                     </div>
                 </div>

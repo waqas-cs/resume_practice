@@ -20,7 +20,7 @@ const MyCapabilities = () => {
                         <div className={styles.capSkillsWrap}>
                             <div className={styles.skill}>
                                 <img src={capSkills}/>
-                                <h5>Web Design</h5>
+                                <h5>Web Design</h5> 
                                 <p>Get awesome design services from inkyy.com</p>
                             </div>
                             <div className={styles.skill}>
